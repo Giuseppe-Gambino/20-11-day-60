@@ -1,5 +1,7 @@
 package Eser3;
 
+import java.util.Arrays;
+
 public class Carrello {
 
     private int codeCliente;
@@ -14,7 +16,7 @@ public class Carrello {
 
     public static void stampaCarrello(Carrello carrello){
         System.out.println("codiceClienete:" + carrello.codeCliente );
-        System.out.println("articoli:" + carrello.articoli );
+        System.out.println("articoli:" + Arrays.toString(carrello.articoli));
         System.out.println("totCosto:" + carrello.totCosto );
 
     }
